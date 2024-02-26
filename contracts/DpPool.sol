@@ -76,7 +76,7 @@ contract TokenWrapper {
 pragma solidity ^0.8.20;
 
 contract DpPool is Initializable, TokenWrapper, OwnableUpgradeable {
-    uint256 public constant UNSTAKE_DURATION = 72 hours; // 3 days
+    uint256 public constant UNSTAKE_DURATION = 14 days; // 2 weeks
 
     uint256 public constant startTime = 0;
 
